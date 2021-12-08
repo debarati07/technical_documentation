@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentation</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main id="main-doc">
+        <!-- The sidebar -->
+        <nav id="navbar">
+      <div class="sidebar" >
+      <header><h1 class="head" id="#ref">Python</h1></header>
+      <a class="active nav-link" href="#Introduction">Introduction</a>
+      <a href="#Built_in_functions" class="nav-link">Built in functions</a>
+      <a href="#String_Methods" class="nav-link">String Methods</a>
+      <a href="#List_Methods" class="nav-link">List Methods</a>
+      <a href="#Tuple_Methods" class="nav-link">Tuple Methods</a>
+      <a href="#Set_Methods" class="nav-link">Set Methods</a>
+      <a href="#Dictionary_Methods" class="nav-link">Dictionary Methods</a>
+    </div>
+        </nav>
+    <!-- Page content -->
+      <section class="main-section" id="Introduction">
+         <header class="content intro">Introduction</header>
+    <div class="content">
+        <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.<br>It is used for:</p>
+                        <ul>
+                        <li>web development (server-side),</li>
+                        <li>software development,</li>
+                        <li>mathematics,</li>
+                        <li>system scripting.</li>
+                        </ul>
+                        <p>Python is an interpreted programming language, this means that as a developer you write Python (.py) files in a text editor and then put those files into the python interpreter to be executed.</p>
+    </div>
+                        </section>
+                         <section class="main-section" id="Built_in_functions">
+         <header class="content intro">Built in functions</header>
+    <div class="content space b">
+                        <dl>
+                        <dt>abs()</dt>
+                        <li>Returns the absolute value of a number</li>
+                        <dt>all()</dt>
+                        <li>Returns True if all items in an iterable object are true</li>
+                        <dt>any()</dt>
+                        <li>Returns True if any item in an iterable object is true</li>
+                        <dt>ascii()</dt>
+                        <li>Returns a readable version of an object. Replaces none-ascii characters with escape character</li>
+                        <dt>bin()</dt>
+                        <li>Returns the binary version of a number</li>
+                        <dt>bool()</dt>
+                        <li>Returns the boolean value of the specified object</li>
+                        <dt>bytearray()</dt>
+                        <li>Returns an array of bytes</li>
+                        <dt>bytes()</dt>
+                        <li>Returns a bytes object</li>
+                        <dt>callable()</dt>
+                        <li>Returns True if the specified object is callable, otherwise False</li>
+                        <dt>chr()</dt>
+                        <li>Returns a character from the specified Unicode code.</li>
+                        <dt>classmethod()</dt>
+                        <li>Converts a method into a class method</li>
+                        <dt>compile()</dt>
+                        <li>Returns the specified source as an object, ready to be executed</li>
+                        <dt>complex()</dt>
+                        <li>Returns a complex number</li>
+                        <dt>delattr()</dt>
+                        <li>Deletes the specified attribute (property or method) from the specified object</li>
+                        <dt>dict()</dt>
+                        <li>Returns a dictionary (Array)</li>
+                        <dt>dir()</dt>
+                        <li>Returns a list of the specified object's properties and methods</li>
+                        <dt>divmod()</dt>
+                        <li>Returns the quotient and the remainder when argument1 is divided by argument2</li>
+                        <dt>enumerate()</dt>
+                        <li>Takes a collection (e.g. a tuple) and returns it as an enumerate object</li>
+                        <dt>eval()</dt>
+                        <li>Evaluates and executes an expression</li>
+                        <dt>exec()</dt>
+                        <li>Executes the specified code (or object)</li>
+                        <dt>filter()</dt>
+                        <li>Use a filter function to exclude items in an iterable object</li>
+                        <dt>float()</dt>
+                        <li>Returns a floating point number</li>
+                        <dt>format()</dt>
+                        <li>Formats a specified value</li>
+                        <dt>frozenset()</dt>
+                        <li>Returns a frozenset object</li>
+                        <dt>getattr()</dt>
+                        <li>Returns the value of the specified attribute (property or method)r</li>
+                        <dt>globals()</dt>
+                        <li>Returns the current global symbol table as a dictionary</li>
+                        <dt>hasattr()</dt>
+                        <li>Returns True if the specified object has the specified attribute (property/method)</li>
+                        <dt>hash()</dt>
+                        <li>Returns the hash value of a specified object</li>
+                        <dt>help()</dt>
+                        <li>Executes the built-in help system</li>
+                        <dt>hex()</dt>
+                        <li>Converts a number into a hexadecimal value</li>
+                        <dt>id()</dt>
+                        <li>Returns the id of an object</li>
+                        <dt>input()</dt>
+                        <li>Allowing user input</li>
+                              <dt>int()</dt>
+                        <li>Returns an integer number</li>
+                              <dt>isinstance()</dt>
+                        <li>Returns True if a specified object is an instance of a specified object</li>
+                              <dt>issubclass()</dt>
+                        <li>Returns True if a specified class is a subclass of a specified object</li>
+                              <dt>iter()</dt>
+                        <li>Returns an iterator object</li>
+                              <dt>len()</dt>
+                        <li>	Returns the length of an object</li>
+                              <dt>list()</dt>
+                        <li>	Returns a list</li>
+                              <dt>locals()</dt>
+                        <li>Returns an updated dictionary of the current local symbol table</li>
+                              <dt>map()</dt>
+                        <li>Returns the specified iterator with the specified function applied to each item</li>
+                              <dt>max()</dt>
+                        <li>Returns the largest item in an iterable</li>
+                              <dt>memoryview()</dt>
+                        <li>Returns a memory view object</li>
+                              <dt>min()</dt>
+                        <li>Returns the smallest item in an iterable</li>
+                              <dt>next()</dt>
+                        <li>Returns the next item in an iterable</li>
+                              <dt>object()</dt>
+                        <li>Returns a new object</li>
+                               <dt>oct()</dt>
+                        <li>Converts a number into an octal</li>
+                               <dt>open()</dt>
+                        <li>Opens a file and returns a file object</li>
+                               <dt>ord()</dt>
+                        <li>Convert an integer representing the Unicode of the specified character</li>
+                               <dt>pow()</dt>
+                        <li>Returns the value of x to the power of y</li>
+                               <dt>print()</dt>
+                        <li>Prints to the standard output device</li>
+                               <dt>property()</dt>
+                        <li>Gets, sets, deletes a property</li>
+                               <dt>range()</dt>
+                        <li>Returns a sequence of numbers, starting from 0 and increments by 1 (by default)</li>
+                               <dt>repr()</dt>
+                        <li>Returns a readable version of an object</li>
+                               <dt>reversed()</dt>
+                        <li>Returns a reversed iterator</li>
+                               <dt>round()</dt>
+                        <li>Rounds a numbers</li>
+                               <dt>set()</dt>
+                        <li>Returns a new set object</li>
+                               <dt>setattr()</dt>
+                        <li>Sets an attribute (property/method) of an object</li>
+                               <dt>slice()</dt>
+                        <li>Returns a slice object</li>
+                               <dt>sorted()</dt>
+                        <li>Returns a sorted list</li>
+                               <dt>staticmethod()</dt>
+                        <li>Converts a method into a static method</li>
+                               <dt>str()</dt>
+                        <li>Returns a string object</li>
+                               <dt>sum()</dt>
+                        <li>Sums the items of an iterator</li>
+                               <dt>super()</dt>
+                        <li>Returns an object that represents the parent class</li>
+                               <dt>tuple()</dt>
+                        <li>Returns a tuple</li>
+                               <dt>type()</dt>
+                        <li>Returns the type of an object</li>
+                               <dt>vars()</dt>
+                        <li>Returns the __dict__ property of an object</li>
+                               <dt>zip()</dt>
+                              <li>Returns an iterator, from two or more iterators</li>
+      </dl>
+                              </div>
+                              </section>
+                              
+                               <section class="main-section" id="String_Methods">
+         <header class="content intro">String Methods</header>
+    <div class="content">
+      <h3>String:</h3>
+      <p>Strings in python are surrounded by either single quotation marks, or double quotation marks.<br>
+        'hello' is the same as "hello".</p>
+    
+      <p>You can display a string literal with the print() function:</p>
+      <p><code>a = "Hello"<br>
+        print(a)</code></p>
+                                 </div>
+                                 <div class="content b space">
+                                   <dl>
+                                     <dt>capitalize()</dt>
+                                       <li>Converts the first character to upper case</li>
+                                     <dt>casefold()</dt>
+                                       <li>Converts string into lower case</li>
+                                     <dt>center()</dt>
+                                       <li>Returns a centered string</li>
+                                     <dt>count()</dt>
+                                       <li>Returns the number of times a specified value occurs in a string</li>
+                                     <dt>encode()</dt>
+                                       <li>Returns an encoded version of the string</li>
+                                     <dt>endswith()</dt>
+                                       <li>Returns true if the string ends with the specified value</li>
+                                     
+                                     <dt>expandtabs()	</dt>
+                                       <li>Sets the tab size of the string</li>
+                                     <dt>find()</dt>
+                                       <li>Searches the string for a specified value and returns the position of where it was found</li>
+                                     <dt>format()</dt>
+                                       <li>Formats specified values in a string</li>
+                                     <dt>format_map()	</dt>
+                                       <li>Formats specified values in a string</li>
+                                     <dt>index()</dt>
+                                       <li>Searches the string for a specified value and returns the position of where it was found</li>
+                                     <dt>isalnum()</dt>
+                                       <li>Returns True if all characters in the string are alphanumeric</li>
+                                     <dt>isalpha()</dt>
+                                       <li>Returns True if all characters in the string are in the alphabet</li>
+                                     <dt>isascii()</dt>
+                                       <li>Returns True if all characters in the string are ascii characters</li>
+                                     <dt>isdecimal()</dt>
+                                       <li>Returns True if all characters in the string are decimals</li>
+                                     <dt>isdigit()</dt>
+                                       <li>Returns True if all characters in the string are digits</li>
+                                     <dt>isidentifier()</dt>
+                                       <li>Returns True if the string is an identifier</li>
+                                     <dt>islower()</dt>
+                                       <li>Returns True if all characters in the string are lower case</li>
+                                     <dt>isnumeric()</dt>
+                                       <li>Returns True if all characters in the string are numeric</li>
+                                     <dt>isprintable()</dt>
+                                       <li>Returns True if all characters in the string are printable</li>
+                                     <dt>isspace()</dt>
+                                       <li>Returns True if all characters in the string are whitespaces</li>
+                                     <dt>istitle()</dt>
+                                       <li>Returns True if the string follows the rules of a title</li>
+                                     <dt>isupper()</dt>
+                                       <li>Returns True if all characters in the string are upper case</li>
+                                     <dt>join()</dt>
+                                       <li>Converts the elements of an iterable into a string</li>
+                                     <dt>ljust()</dt>
+                                       <li>Returns a left justified version of the string</li>
+                                     <dt>lower()</dt>
+                                       <li>Converts a string into lower case</li>
+                                     <dt>lstrip()</dt>
+                                       <li>Returns a left trim version of the string</li>
+                                     <dt>maketrans()</dt>
+                                       <li>Returns a translation table to be used in translations</li>
+                                     <dt>partition()</dt>
+                                       <li>Returns a tuple where the string is parted into three parts</li>
+                                     <dt>replace()</dt>
+                                       <li>Returns a string where a specified value is replaced with a specified value</li>
+                                     <dt>rfind()</dt>
+                                       <li>Searches the string for a specified value and returns the last position of where it was found</li>
+                                     <dt>rindex()</dt>
+                                       <li>Searches the string for a specified value and returns the last position of where it was found</li>
+                                     <dt>rjust()</dt>
+                                       <li>Returns a right justified version of the string</li>
+                                     <dt>rpartition()</dt>
+                                       <li>Returns a tuple where the string is parted into three parts</li>
+                                     <dt>rsplit()</dt>
+                                       <li>Splits the string at the specified separator, and returns a list</li>
+                                     <dt>rstrip()Returns a right trim version of the string</dt>
+                                     <li>Returns a right trim version of the string</li>
+                                     <dt>split()</dt>
+                                     <li>Splits the string at the specified separator, and returns a list</li>
+                                     <dt>splitlines()</dt>
+                                     <li>Splits the string at line breaks and returns a list</li>
+                                     <dt>startswith()	</dt>
+                                     <li>Returns true if the string starts with the specified value</li>
+                                     <dt>strip()</dt>
+                                     <li>Returns a trimmed version of the string</li>
+                                     <dt>swapcase()</dt>
+                                     <li>Swaps cases, lower case becomes upper case and vice versa</li>
+                                     <dt>title()</dt>
+                                     <li>Converts the first character of each word to upper case</li>
+                                     <dt>translate()</dt>
+                                     <li>Returns a translated stringupper()</li>
+                                     <dt>upper()</dt>
+                                     <li>Converts a string into upper case</li>
+                                     <dt>zfill()</dt>
+                                     <li>Fills the string with a specified number of 0 values at the beginning</li>
+                                     </div>
+                                   </section>
+                                    <section class="main-section" id="List_Methods">
+         <header class="content intro">List Methods</header>
+    <div class="content">
+      <h3>List:</h3>
+                        <p>Lists are used to store multiple items in a single variable.
+    
+    Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.</p>
+                        <p><code>thislist = ["apple", "banana", "cherry"]<br>
+    print(thislist)<code><p>
+                                                                        <p><code>thislist = ["apple", "banana", "cherry"]<br>
+                                                                                                                        print(len(thislist))</code></p>
+    
+                                                                        </div>
+                       <div class="content b space">
+                                                   <dl>
+                                                   <dt>append()</dt>
+                                                   <li>Adds an element at the end of the list</li>
+                                                   <dt>clear()</dt>
+                                                   <li>Removes all the elements from the list</li>
+                                                   <dt>copy()</dt>
+                                                   <li>Returns a copy of the list</li>
+                                                   <dt>count()</dt>
+                                                   <li>Returns the number of elements with the specified value</li>
+                                                   <dt>extend()Add the elements of a list (or any iterable), to the end of the current list</dt>
+                                                   <li>Add the elements of a list (or any iterable), to the end of the current list</li>
+                                                   <dt>index()</dt>
+                                                   <li>Returns the index of the first element with the specified value</li>
+                                                   <dt>insert()</dt>
+                                                   <li>Adds an element at the specified position</li>
+                                                   <dt>pop()</dt>
+                                                   <li>Removes the element at the specified position</li>
+                                                   <dt>remove()</dt>
+                                                   <li>Removes the first item with the specified value</li>
+                                                   <dt>reverse()	</dt>
+                                                   <li>Reverses the order of the list</li>
+                                                   <dt>sort()</dt>
+                                                   <li>Sorts the list</li>
+                                                   </dl>
+                                                   </div>
+                                                   </section>
+                                                   <section class="main-section" id="Tuple_Methods">
+         <header class="content intro">Tuple Methods</header>
+    <div class="content">
+      <h3>Tuple:</h3>
+                        <p>Tuples are used to store multiple items in a single variable.
+    
+    Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.
+    
+    A tuple is a collection which is ordered and unchangeable.
+    
+                        Tuples are written with round brackets.</p>
+                        <p><code>thistuple = ("apple", "banana", "cherry")<br>
+                                                                         print(thistuple)</code></p>
+                                                                         <p>Tuples allow duplicate values:<br>
+                                                                         <code>thistuple = ("apple", "banana", "cherry", "apple", "cherry")<br>
+                                                                                                                                          print(thistuple)</code></p>
+                                                                                                                                          </div>
+                                                                                                                                           <div class="content b space">
+                                           <dl>
+                                           <dt>count()</dt>
+                                           <li>Returns the number of times a specified value occurs in a tuple</li>
+                                           <dt>index()</dt>
+                                           <li>Searches the tuple for a specified value and returns the position of where it was found</li>
+                                           </dl>
+                                           </div>
+                                           </section>
+                                            <section class="main-section" id="Set_Methods">
+         <header class="content intro">Set Methods</header>
+    <div class="content">
+      <h3>Set:</h3>
+                        <p>Sets are used to store multiple items in a single variable.
+    
+    Set is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
+    
+                        A set is a collection which is unordered, unchangeable*, and unindexed.</p>
+                        <p><code>thisset = {"apple", "banana", "cherry"}<br>
+                                                                       print(thisset)</code></p>
+                                                                       <p>Get the number of items in a set:<br><code>thisset = {"apple", "banana", "cherry"}<br>
+    
+    print(len(thisset))</code></p>
+    </div>
+      <div class="content b space">
+                                  <dl>
+                                  <dt>add()</dt>
+                                  <li>Adds an element to the set</li>
+                                  <dt>clear()</dt>
+                                  <li>Removes all the elements from the set</li>
+                                  <dt>copy()</dt>
+                                  <li>Returns a copy of the set</li>
+                                  <dt>difference()</dt>
+                                  <li>Returns a set containing the difference between two or more sets</li>
+                                  <dt>discard()</dt>
+                                  <li>Remove the specified item</li>
+                                  <dt>intersection()</dt>
+                                  <li>Returns a set, that is the intersection of two or more sets</li>
+                                  <dt>isdisjoint()</dt>
+                                  <li>Returns whether two sets have a intersection or not</li>
+                                  <dt>issubset()</dt>
+                                  <li>Returns whether another set contains this set or not</li>
+                                  <dt>issuperset()</dt>
+                                  <li>Returns whether this set contains another set or not</li>
+                                  <dt>pop()</dt>
+                                  <li>Removes an element from the set</li>
+                                  <dt>remove()</dt>
+                                  <li>Removes the specified element</li>
+                                   <dt>union()</dt>
+                                  <li>Return a set containing the union of sets</li>
+                                   <dt>update()</dt>
+                                  <li>Update the set with another set, or any other iterable</li>
+                                  </dl>
+                                  </div>
+                                  </section>
+                                   <section class="main-section" id="Dictionary_Methods">
+         <header class="content intro">Dictionary Methods</header>
+    <div class="content">
+      <h3>Dictionaries:</h3>
+                        <p>Dictionaries are used to store data values in key:value pairs.
+    
+    A dictionary is a collection which is ordered*, changeable and do not allow duplicates.<br>Dictionaries are written with curly brackets, and have keys and values:</p>
+                        <p><code>thisdict = {
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 1964
+    }<br>
+            print(thisdict)</code></p>
+            <p>Print the "brand" value of the dictionary:<br><code>thisdict = {
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 1964
+    }<br>
+            print(thisdict["brand"])</code>
+                                  </p>
+                                  </div>
+                                  <div class="content b space">
+                                                              <dl>
+                                                              <dt>clear()</dt>
+                                                              <li>Removes all the elements from the dictionary</li>
+                                                              <dt>copy()</dt>
+                                                              <li>Returns a copy of the dictionary</li>
+                                                              <dt>fromkeys()	</dt>
+                                                              <li>Returns a dictionary with the specified keys and value</li>
+                                                              <dt>get()</dt>
+                                                              <li>Returns the value of the specified key</li>
+                                                              <dt>items()</dt>
+                                                              <li>Returns a list containing a tuple for each key value pair</li>
+                                                              <dt>keys()</dt>
+                                                              <li>Returns a list containing the dictionary's keys</li>
+                                                              <dt>pop()</dt>
+                                                              <li>Removes the element with the specified key
+    </li>
+                                                              <dt>popitem()</dt>
+                                                              <li>Removes the last inserted key-value pair</li>
+                                                              <dt>setdefault()</dt>
+                                                              <li>Returns the value of the specified key. If the key does not exist: insert the key, with the specified value</li>
+                                                              <dt>update()</dt>
+                                                              <li>Updates the dictionary with the specified key-value pairs</li>
+                                                              <dt>values()</dt>
+                                                              <li>Returns a list of all the values in the dictionary</li>
+                                                              </dl>
+                                                              </div>
+                                                              </section>
+      <div class="content foot">
+       <p>All the documentation in this page is taken from
+              <a
+                href="https://www.w3schools.com/python/default.asp"
+                target="_blank"
+                 ><b>W3Schools</b></a></p>
+      </div>
+      </main>
+  </body>
+</html>
